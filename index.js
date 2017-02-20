@@ -7,6 +7,7 @@ app.get('/',function(req, res){
 
 //res.send('Hello world');
 res.json({hello:'world'});
+
 });
 
 var server = app.listen(3000, function(){
